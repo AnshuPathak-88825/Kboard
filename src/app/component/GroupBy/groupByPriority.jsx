@@ -1,12 +1,12 @@
 "use client"
 import React, {useState,useEffect} from 'react';
 
-import CardHead from '../Card/cardHead.jsx';
-import CardBody from '../Card/cardBody.jsx';
+import CardHead from '../Card/CardHead.jsx';
+import CardBody from '../Card/CardBody.jsx';
 
-import priorities from '../GroupingObjects/priorities.jsx'
+import priorities from '../GroupingObjects/Priorities.jsx'
 
-const groupByPriority = ({ data, grouping, ordering }) => {
+const GroupByPriority = ({ data, grouping, ordering }) => {
   const [groupedTickets, setGroupedTickets] = useState({});
 
   // Effect to group tickets by priority when data changes
@@ -78,4 +78,4 @@ const groupByPriority = ({ data, grouping, ordering }) => {
 );
 }
 
-export default groupByPriority
+export default GroupByPriority

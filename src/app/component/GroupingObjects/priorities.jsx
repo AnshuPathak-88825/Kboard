@@ -7,7 +7,7 @@ import High from '../PriorityIcons/High.jsx';
 import Medium from '../PriorityIcons/Medium.jsx';
 import Low from '../PriorityIcons/Low.jsx';
 
-const priorities = [
+const Priorities = [
     {
         id: 0,
         name: 'No Priority',
@@ -35,5 +35,5 @@ const priorities = [
     },
 ];
 
-// Exporting the priorities array for use in other components
-export default priorities;
+// Exporting the Priorities array for use in other components
+export default Priorities;

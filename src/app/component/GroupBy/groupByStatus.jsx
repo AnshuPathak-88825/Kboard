@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import statuses from "../GroupingObjects/statuses.jsx";
-import CardHead from "../Card/cardHead.jsx";
-import CardBody from "../Card/cardBody.jsx";
+import statuses from "../GroupingObjects/Statuses.jsx";
+import CardHead from "../Card/CardHead.jsx";
+import CardBody from "../Card/CardBody.jsx";
 
-const groupByStatus = ({ data, grouping, ordering }) => {
+const GroupByStatus = ({ data, grouping, ordering }) => {
   const [groupedTickets, setGroupedTickets] = useState({});
   // Effect to group tickets by status when data changes
   useEffect(() => {
@@ -85,4 +85,4 @@ const groupByStatus = ({ data, grouping, ordering }) => {
   );
 };
 
-export default groupByStatus;
+export default GroupByStatus;

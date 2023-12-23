@@ -7,7 +7,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 import { MdCancel } from "react-icons/md";
 
 //Array representing different statuses along with their icons
-const statuses = [
+const Statuses = [
     {
         title: 'Backlog',
         icon: <LuCircleDashed className='bg-transparent flex items-center justify-center w-[16px] h-[16px] font-bold text-[#e3e3e4]'/>
@@ -31,4 +31,4 @@ const statuses = [
     },
 ];
 
-export default statuses
+export default Statuses

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import priorities from '../GroupingObjects/priorities.jsx';
-import statuses from '../GroupingObjects/statuses.jsx';
+import priorities from '../GroupingObjects/Priorities.jsx';
+import statuses from '../GroupingObjects/Statuses.jsx';
 
 // Functional component for rendering the body of a card
 const CardBody = ({ ticket, users, grouping }) => {
